@@ -1,0 +1,32 @@
+.container {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0px 4px;
+}
+
+.bar {
+  height: 35px;
+  background: linear-gradient(to top right, red, yellow, pink);
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.bar p {
+  position: absolute;
+  left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 360px;
+  }
+}
